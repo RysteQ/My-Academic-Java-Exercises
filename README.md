@@ -8,10 +8,9 @@ This repository will be updated roughly once a week since this is when I can get
 
 <br>
 
----
 
 ## Notes
 
-Now, if you expect anything hard then I am sorry to dissapoint you but there won't be anything advanced in this repository **although** because I am currently taking the class I may be proven wrong in the following months.
+Now, if you expect anything hard then I am sorry to dissapoint you but there won't be anything advanced in this repository, **although** because I am currently taking the class I may be proven wrong in the following month or so.
 
 Also, if for some reason you are a member in the same class as me and you think you can get off the hook the easy way, **shame on you**, don't copy and paste code for a grade you don't deserve.
