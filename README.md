@@ -4,7 +4,7 @@ This repository will contain all of the exercises we have to solve in the [objec
 
 <br>
 
-This repository will be updated roughly once a week since this is when I can get my hands on the exercises that I need to solve, although the schedule might **fluctuate** for a variety of reasons.
+This repository will be updated roughly once a week since this is when I can get my hands on the exercises that I need to solve, although the schedule **might fluctuate** for a variety of reasons.
 
 <br>
 
