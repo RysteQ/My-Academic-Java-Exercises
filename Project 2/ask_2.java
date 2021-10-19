@@ -1,16 +1,6 @@
 import java.util.Scanner;
 
 
-/*
-Name: ask_2
-Input: Keyboard Input (terminal)
-Output: Text Output (terminal)
-
-Purpose: This is the solution of the second exercise we had to solve for the OOP class in my place of education, it's the same as the first exercise but this time we used a class to solve the problem,
-unlike the first exercise when we were using Java just like C
-*/
-
-
 class Main {
     public static void main (String[] args) {
     	product mainProcess = new product("exit");
@@ -28,7 +18,6 @@ class product {
 	
 	
 	public void findBestProduct() {
-		// initial values
 		System.out.print("Name: ");
 		productName = bestProductName = input.nextLine();
 		
@@ -36,7 +25,7 @@ class product {
 		bestProductScore = input.nextInt();
 		
 		System.out.print("Price: ");
-		bestProductPrice = input.nextInt();
+		bestProductPrice = input.nextDouble();
 		input.nextLine();
 		
 		
@@ -50,7 +39,7 @@ class product {
 			productScore = input.nextInt();
 			
 			System.out.print("Price: ");
-			productPrice = input.nextInt();
+			productPrice = input.nextDouble();
 			input.nextLine();
 			
 			calculateProduct();	
@@ -79,9 +68,9 @@ class product {
 	
 	private String bestProductName;
 	private int bestProductScore;
-	private int bestProductPrice;
+	private double bestProductPrice;
 	
 	private String productName;
 	private int productScore;
-	private int productPrice;
+	private double productPrice;
 }

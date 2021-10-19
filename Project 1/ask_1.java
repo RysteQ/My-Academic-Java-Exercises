@@ -11,27 +11,29 @@ object oriented programming in my place of education
 */
 
 
-class ask_1 {
+class Main {
     static Scanner input = new Scanner(System.in);
     
 
     public static void main (String[] args) {
         String bestProductName;
-        int bestProductScore, bestProductPrice;
+        int bestProductScore;
+        Double bestProductPrice;
 
         String currentProductName;
-        int currentProductScore, currentProductPrice;
+        int currentProductScore;
+        Double currentProductPrice;
 
 
         bestProductName = getString("Name: ");
         bestProductScore = getInt("Score: ");
-        bestProductPrice = getInt("Price: ");
+        bestProductPrice = getDouble("Price: ");
         input.nextLine();
 
 
         while (!(currentProductName = getString("Name: ")).equals("exit")) {
             currentProductScore = getInt("Score: ");
-            currentProductPrice = getInt("Price: ");
+            currentProductPrice = getDouble("Price: ");
 
 
             if ((currentProductScore / currentProductPrice) > (bestProductScore / bestProductPrice)) {
@@ -57,5 +59,10 @@ class ask_1 {
     private static int getInt(String msg) {
         System.out.print(msg);
         return input.nextInt();
+    }
+
+    private static Double getDouble(String msg) {
+        System.out.print(msg);
+        return input.nextDouble();
     }
 }
